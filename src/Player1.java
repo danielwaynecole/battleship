@@ -21,11 +21,11 @@ public class Player1 extends Player {
 
 	public boolean addShips() {
 		
-		game.putShip(myShips, Ships.SHIP_CARRIER, 2, 2, Ships.SHIP_SOUTH);
+		game.putShip(myShips, Ships.SHIP_CARRIER, 1, 4, Ships.SHIP_EAST);
 		game.putShip(myShips, Ships.SHIP_BATTLESHIP, 5, 5, Ships.SHIP_EAST);
 		game.putShip(myShips, Ships.SHIP_CRUISER, 6, 7, Ships.SHIP_EAST);
 		game.putShip(myShips, Ships.SHIP_DESTROYER, 8, 3, Ships.SHIP_EAST);
-		game.putShip(myShips, Ships.SHIP_SUBMARINE, 9, 9, Ships.SHIP_NORTH);
+		game.putShip(myShips, Ships.SHIP_SUBMARINE, 5, 1, Ships.SHIP_SOUTH);
 
 		return true;
 	}
