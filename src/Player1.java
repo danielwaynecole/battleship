@@ -64,12 +64,12 @@ public class Player1 extends Player {
 	
 	public void placeShip(int ship) {	
 		Random generator = new Random();
-		Boolean successful = false;	
+		boolean successful = false;	
 		shipLength = ship;
 		if(ship == 1) { shipLength = 3; }
 
 			do {
-				Integer orientation = generator.nextInt(2);
+				int orientation = generator.nextInt(2);
 	            if(orientation == 0)
 	            	shipDir = true; // Horizontal
 	            else
